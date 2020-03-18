@@ -1,0 +1,224 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 239700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The user in FB page",
+            "match": {
+              "location": "StepDefinition.the_user_in_FB_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 25097865500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.before()"
+            }
+          },
+          {
+            "result": {
+              "duration": 6818400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.before2()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "To validate the login with the credeintials",
+        "description": "",
+        "id": "to-validatde-the-fb-login;to-validate-the-login-with-the-credeintials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1812853600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 852268400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user enter the \"mano\" and \"965\" datas",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mano\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"965\"",
+                  "offset": 30
+                }
+              ],
+              "location": "StepDefinition.the_user_enter_the_and_datas(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 234497600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user click the login button",
+            "match": {
+              "location": "StepDefinition.the_user_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 214000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The user  navigate to next page",
+            "match": {
+              "location": "StepDefinition.the_user_navigate_to_next_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 104700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The user in FB page",
+            "match": {
+              "location": "StepDefinition.the_user_in_FB_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 20941885501,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.before()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "To validate the Registration functionality",
+        "description": "",
+        "id": "to-validatde-the-fb-login;to-validate-the-registration-functionality;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 779750500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 688289699,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "The user enter the \"Manoj\" and \"Kumar\" details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Manoj\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Kumar\"",
+                  "offset": 31
+                }
+              ],
+              "location": "StepDefinition.the_user_enter_the_and_details(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 115300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the user Registered successfully",
+            "match": {
+              "location": "StepDefinition.the_user_Registered_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "To validatde the Fb login",
+    "description": "",
+    "id": "to-validatde-the-fb-login",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/login.feature",
+    "tags": []
+  }
+]
