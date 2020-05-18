@@ -10,7 +10,7 @@ import net.masterthought.cucumber.ReportBuilder;
 public class JVMReport {
 	
 	public static void generateJVMReport(String json) {
-		File f= new File("E:\\Mano\\My WorkSpace\\Cucumber\\src\\test\\resources\\Reports\\JVM Reports");
+		File f= new File(System.getProperty("user.dir")+"\\src\\test\\resources\\Reports\\JVM Reports");
 		Configuration con=new Configuration(f, "Air Canada");
 		
 		con.addClassifications("PlatformName", "Windows");

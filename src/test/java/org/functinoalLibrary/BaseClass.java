@@ -11,15 +11,15 @@ public class BaseClass {
 	public static WebDriver driver;
 
 	public static void launchChromeBrowser() {
-		System.setProperty("webdriver.chrome.driver", "E:\\Mano\\My WorkSpace\\JUnit\\Drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\Drivers\\chromedriver.exe");
 		driver = new ChromeDriver();
 	}
 	public static void launchFirefoxBrowser() {
-		System.setProperty("webdriver.gecko.driver", "E:\\Mano\\My WorkSpace\\JUnit\\Drivers\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+"\\Drivers\\geckodriver.exe");
 		driver = new FirefoxDriver();
 	}
 	public static void launchieBrowser() {
-		System.setProperty("webdriver.ie.driver", "E:\\Mano\\My WorkSpace\\JUnit\\Drivers\\IEDriverServer.exe");
+		System.setProperty("webdriver.ie.driver", System.getProperty("user.dir")+"\\Drivers\\IEDriverServer.exe");
 		driver = new InternetExplorerDriver();
 	}
 
